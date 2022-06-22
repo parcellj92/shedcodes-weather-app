@@ -1,0 +1,73 @@
+.container {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  padding: 20px 15px 20px 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 60%;
+}
+hr {
+  color: blue;
+  margin: 0 auto;
+}
+.temp {
+  border-style: solid;
+  border-color: orange;
+  text-align: center;
+  margin-top: 5px;
+}
+.unit {
+  text-align: right;
+  margin: 0 auto;
+}
+.days {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.weatherIcon {
+  text-align: center;
+  font-size: 48px;
+}
+.description {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 12px;
+}
+h1,
+h2,
+h3 {
+  text-align: right;
+}
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 25px;
+  margin: 0 auto;
+  padding-top: 0%;
+}
+h3 {
+  font-weight: lighter;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.dailyIcon {
+  position: fixed;
+  font-size: 120px;
+  left: 27%;
+  top: 10%;
+}
+.search {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  padding: 0px 12px;
+  border-width: 3px;
+}
