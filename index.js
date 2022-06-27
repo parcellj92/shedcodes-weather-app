@@ -47,7 +47,7 @@ function displayWeather(response) {
   );
   document.querySelector("#currentDes").innerHTML =
     response.data.weather[0].main;
-  document.querySelector("#wind").innerHTML = response.data.wind[3].main;
+  document.querySelector("#wind").innerHTML = response.data.wind[2].speed;
 }
 
 function searchCity(city) {
