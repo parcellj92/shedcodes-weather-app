@@ -21,6 +21,9 @@ hr {
 .unit {
   text-align: right;
   margin: 0 auto;
+  position: fixed;
+  left: 75%;
+  top: 22%;
 }
 .days {
   text-align: center;
