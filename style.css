@@ -67,6 +67,10 @@ h3 {
   left: 22%;
   top: 10%;
 }
+.humidity {
+  left: 27%;
+  font-size: 12px;
+}
 .search {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
