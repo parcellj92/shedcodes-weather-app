@@ -22,6 +22,7 @@ hr {
   text-align: right;
   margin: 0 auto;
   font-size: 12px;
+  position: fixed;
   left: 15%;
   top: 5%;
 }
