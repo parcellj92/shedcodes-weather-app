@@ -13,8 +13,6 @@ hr {
   margin: 0 auto;
 }
 .temp {
-  border-style: solid;
-  border-color: rgb(168, 167, 166);
   text-align: center;
   margin-top: 5px;
 }
