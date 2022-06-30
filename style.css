@@ -69,6 +69,7 @@ h3 {
 .wind {
   position: fixed;
   left: 27%;
+  top: 7%;
   font-size: 12px;
 }
 .search {
