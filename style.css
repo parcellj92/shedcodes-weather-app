@@ -14,7 +14,7 @@ hr {
 }
 .temp {
   border-style: solid;
-  border-color: orange;
+  border-color: rgb(168, 167, 166);
   text-align: center;
   margin-top: 5px;
 }
