@@ -21,9 +21,7 @@ hr {
 .unit {
   text-align: right;
   margin: 0 auto;
-  position: fixed;
-  left: 78.5%;
-  top: 12%;
+  font-size: 12px;
 }
 .days {
   text-align: center;
@@ -67,7 +65,7 @@ h3 {
   left: 22%;
   top: 10%;
 }
-.humidity {
+.wind {
   left: 27%;
   font-size: 12px;
 }
