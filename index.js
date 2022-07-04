@@ -48,6 +48,7 @@ function displayWeather(response) {
   document.querySelector("#currentDes").innerHTML =
     response.data.weather[0].main;
   document.querySelector("#wind").innerHTML = response.data.wind.speed;
+  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
 }
 
 function searchCity(city) {
