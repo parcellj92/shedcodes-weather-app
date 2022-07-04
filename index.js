@@ -41,14 +41,17 @@ currentDay.innerHTML = `${day} ${month} ${date}, ${year} ${hour}:${minute}`;
 //
 
 function displayWeather(response) {
-  document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#temp").innerHTML = Math.round(
-    response.data.main.temp
-  );
-  document.querySelector("#currentDes").innerHTML =
-    response.data.weather[0].main;
-  document.querySelector("#wind").innerHTML = response.data.wind.speed;
-  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  let windElement = document.querySelector("#wind");
+  let cityElement = document.querySelector("#city");
+  let descriptionElement = document.querySelector("#currentDes");
+  let tempElement = document.querySelector("#temp");
+  let humidityElement = document.querySelector("#humidity");
+
+  cityElement.innerHTML = response.data.name;
+  tempElement.innerHTML = Math.round(response.data.main.temp);
+  descriptionElement.innerHTML = response.data.weather[0].main;
+  windElement.innerHTML = response.data.wind.speed;
+  humidityElement.innerHTML = response.data.main.humidity;
 }
 
 function searchCity(city) {
