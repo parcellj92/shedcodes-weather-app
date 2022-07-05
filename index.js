@@ -51,7 +51,9 @@ function displayWeather(response) {
   tempElement.innerHTML = Math.round(response.data.main.temp);
   descriptionElement.innerHTML = response.data.weather[0].main;
   windElement.innerHTML = `Wind: ${Math.round(response.data.wind.speed)}mph`;
-  humidityElement.innerHTML = Math.round(response.data.main.humidity);
+  humidityElement.innerHTML = `Humidity: ${Math.round(
+    response.data.main.humidity
+  )}%`;
 }
 
 function searchCity(city) {
