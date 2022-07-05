@@ -44,7 +44,7 @@ function displayWeather(response) {
   let windElement = document.querySelector("#wind");
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#currentDes");
-  let tempElement = document.querySelector("#temp");
+  let tempElement = document.querySelector("#dailyTemp");
   let humidityElement = document.querySelector("#humidity");
 
   cityElement.innerHTML = response.data.name;
