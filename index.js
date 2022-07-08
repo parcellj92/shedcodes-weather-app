@@ -42,7 +42,8 @@ currentDay.innerHTML = `${day} ${month} ${date}, ${year} ${hour}:${minute}`;
 
 function displayForecast (){
     let forecastElement = document.querySelector(#forecast);
-    let fays = ["Thu","Fri","Sat","Sun"];
+    
+    let days = ["Thu","Fri","Sat","Sun"];
 
     let forecastHTML = `<div class="row">`;
   days.forEach(function (day) {
