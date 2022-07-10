@@ -85,6 +85,7 @@ function displayWeather(response) {
     response.data.main.humidity
   )}%`;
 }
+displayForecast();
 
 function searchCity(city) {
   let apiKey = "80e7e03978eecacba428a41c3f4a5874";
