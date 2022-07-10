@@ -107,5 +107,6 @@ h3 {
 }
 .open {
   font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
   right: 25%;
 }
