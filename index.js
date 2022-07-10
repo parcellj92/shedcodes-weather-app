@@ -70,6 +70,10 @@ function displayForecast() {
   console.log(forecastHTML);
 }
 
+function getForecast(coordinates) {
+  console.log(coordinates);
+}
+
 function displayWeather(response) {
   let windElement = document.querySelector("#wind");
   let cityElement = document.querySelector("#city");
@@ -84,6 +88,8 @@ function displayWeather(response) {
   humidityElement.innerHTML = `Humidity: ${Math.round(
     response.data.main.humidity
   )}%`;
+
+  getForecast(response.data.coord);
 }
 displayForecast();
 
