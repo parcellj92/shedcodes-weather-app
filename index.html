@@ -20,62 +20,62 @@
   </head>
   <body>
     <div class="container">
-      <form id="search-form">
-        <input
-          class="search"
-          type="text"
-          placeholder="Search for a city"
-          autocomplete="off"
-          autofocus="on"
-          id="search-text-input"
-        />
-        <input type="submit" value="Submit" />
-      </form>
-      <h1>
-        <span id="dailyTemp">78</span>
-        <span class="unit">˚F</span>
-      </h1>
-      <div>
-        <h2 id="city">Salt Lake City, UT</h2>
-      </div>
+      <div class="weather-app-wrapper">
+        <form id="search-form">
+          <input
+            class="search"
+            type="text"
+            placeholder="Search for a city"
+            autocomplete="off"
+            autofocus="on"
+            id="search-text-input"
+          />
+          <input type="submit" value="Submit" />
+        </form>
+        <h1>
+          <span id="dailyTemp">78</span>
+          <span class="unit">˚F</span>
+        </h1>
+        <div>
+          <h2 id="city">Salt Lake City, UT</h2>
+        </div>
 
-      <div>
-        <h3 class="date">Friday May 26, 2022 16:00</h3>
-      </div>
-      <div>
-        <h3 id="currentDes">Sunny</h3>
-      </div>
-      <div class="dailyIcon">🌤</div>
-      <span id="otherDetail">
-        <div id="wind">Wind: 5mph</div>
-        <div id="humidity">Humidity: 35%</div>
-      </span>
-      <div></div>
-      <div>
-        <div class="weather-forecast" id="forecast">
-          <div class="row">
-            <div class="col-2">
-              <div class="weather-forecast-date">Thu</div>
-              ☀️
-              <div class-="weather-forecast-temperatures">
-                <span class="weather-forecast-temperature-max">18˚</span>
-                <span class="weather-forecast-temperature-min">12˚</span>
+        <div>
+          <h3 class="date">Friday May 26, 2022 16:00</h3>
+        </div>
+        <div>
+          <h3 id="currentDes">Sunny</h3>
+        </div>
+        <div class="dailyIcon">🌤</div>
+        <span id="otherDetail">
+          <div id="wind">Wind: 5mph</div>
+          <div id="humidity">Humidity: 35%</div>
+        </span>
+        <div></div>
+        <div>
+          <div class="weather-forecast" id="forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Thu</div>
+                ☀️
+                <div class-="weather-forecast-temperatures">
+                  <span class="weather-forecast-temperature-max">18˚</span>
+                  <span class="weather-forecast-temperature-min">12˚</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <small>
+          <a
+            href="https://github.com/parcellj92/shedcodes-weather-app"
+            target="_blank"
+          >
+            Open-source code
+          </a>
+          by Jessica Parcell
+        </small>
       </div>
-    </div>
-    <div class="open">
-    <small>
-      <a
-        href="https://github.com/parcellj92/shedcodes-weather-app"
-        target="_blank"
-      >
-        Open-source code
-      </a>
-      by Jessica Parcell
-    </small>
     </div>
     <script src="index.js"></script>
   </body>
