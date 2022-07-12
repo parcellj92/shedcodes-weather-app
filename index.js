@@ -100,6 +100,7 @@ function displayWeather(response) {
   let descriptionElement = document.querySelector("#currentDes");
   let tempElement = document.querySelector("#dailyTemp");
   let humidityElement = document.querySelector("#humidity");
+  let iconElement = document.querySelector("#icon");
 
   cityElement.innerHTML = response.data.name;
   tempElement.innerHTML = Math.round(response.data.main.temp);
@@ -108,6 +109,11 @@ function displayWeather(response) {
   humidityElement.innerHTML = `Humidity: ${Math.round(
     response.data.main.humidity
   )}%`;
+  dateElement.innerHTML = formatDate(response.data.dt * 1000);
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 
   getForecast(response.data.coord);
 }
