@@ -19,11 +19,11 @@
   margin-top: 5px;
 }
 .unit {
-  text-align: left;
+  text-align: right;
   margin: 0 auto;
   font-size: 12px;
   position: fixed;
-  left: 21.5%;
+  right: 21.5%;
   top: 13%;
 }
 .days {
