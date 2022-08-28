@@ -21,10 +21,12 @@
 .unit {
   text-align: right;
   margin: 0 auto;
-  font-size: 12px;
-  position: fixed;
-  right: 21.5%;
-  top: 13%;
+  font-size: 21px;
+}
+
+.dailyTemp {
+  margin: 0 auto;
+  font-size: 52px;
 }
 .days {
   text-align: center;
@@ -41,10 +43,11 @@
   font-weight: bolder;
   font-size: 12px;
 }
+
 h1,
 h2,
 h3 {
-  text-align: right;
+  text-align: left;
 }
 h1 {
   font-weight: normal;
@@ -62,18 +65,11 @@ h3 {
   margin: 0 auto;
 }
 .dailyIcon {
-  position: fixed;
   font-size: 100px;
-  left: 22%;
-  top: 12%;
 }
 .otherDetail {
-  display: block;
-  position: fixed;
-  top: 10%;
-  left: 45%;
   font-size: 12px;
-  text-align: left;
+  text-align: right;
   margin: 0 auto;
 }
 .search {
@@ -108,4 +104,6 @@ h3 {
 }
 .icon {
   font-size: 200px;
+  display: block;
+  text-align: right;
 }

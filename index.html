@@ -32,30 +32,38 @@
           />
           <input type="submit" value="Submit" />
         </form>
-        <h1>
-          <span id="dailyTemp">78</span>
-          <span class="unit">˚F</span>
-        </h1>
-        <h2 id="city">Salt Lake City, UT</h2>
+        <div class="row mt-5">
+          <div class="col-6">
+            <h1>
+              <span id="dailyTemp">78</span>
+              <span class="unit align-text-top">˚F</span>
+            </h1>
+            <h2 id="city">Salt Lake City, UT</h2>
 
-        <div>
-          <h3 class="date">Friday May 26, 2022 16:00</h3>
+            <div>
+              <h3 class="date">Friday May 26, 2022 16:00</h3>
+            </div>
+            <div>
+              <h3 id="currentDes">Sunny</h3>
+            </div>
+          </div>
+          <div class="col-6 mb-3">
+            <div>
+              <img src="" id="icon" />
+            </div>
+            <span id="otherDetail">
+              <div id="wind">Wind: 5mph</div>
+              <div id="humidity">Humidity: 35%</div>
+            </span>
+          </div>
         </div>
-        <div>
-          <h3 id="currentDes">Sunny</h3>
-        </div>
-        <div><img src="" id="icon" /></div>
-        <span id="otherDetail">
-          <div id="wind">Wind: 5mph</div>
-          <div id="humidity">Humidity: 35%</div>
-        </span>
         <div class="daily-weather"></div>
         <div class="weather-forecast" id="forecast">
           <div class="row">
             <div class="col-2">
               <div class="weather-forecast-date">Thu</div>
               ☀️
-              <div class-="weather-forecast-temperatures">
+              <div class="weather-forecast-temperatures">
                 <span class="weather-forecast-temperature-max">18˚</span>
                 <span class="weather-forecast-temperature-min">12˚</span>
               </div>
